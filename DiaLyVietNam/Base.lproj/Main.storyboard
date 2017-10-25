@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eHR-e4-4cN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,12 +13,15 @@
         <array key="HelveticaNeue.ttc">
             <string>HelveticaNeue</string>
         </array>
+        <array key="HoeflerText.ttc">
+            <string>HoeflerText-Italic</string>
+        </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--ĐỊA LÍ VIỆT NAM-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiaLyVietNam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="ĐỊA LÍ VIỆT NAM" id="BYZ-38-t0r" customClass="ViewController" customModule="DiaLyVietNam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,12 +38,12 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTS-ko-F2J">
-                                                    <rect key="frame" x="10" y="18.5" width="310" height="17.5"/>
+                                                    <rect key="frame" x="10" y="18.5" width="350" height="17.5"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKq-zH-Wf9">
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKq-zH-Wf9">
                                                     <rect key="frame" x="325" y="2" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="mVZ-bX-Vul"/>
@@ -53,8 +56,8 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="fKq-zH-Wf9" firstAttribute="leading" secondItem="RTS-ko-F2J" secondAttribute="trailing" constant="5" id="5lH-FX-DjQ"/>
                                                 <constraint firstItem="fKq-zH-Wf9" firstAttribute="top" secondItem="IHq-W6-EI5" secondAttribute="top" constant="2" id="EJN-br-6Qz"/>
+                                                <constraint firstAttribute="trailing" secondItem="RTS-ko-F2J" secondAttribute="trailing" constant="15" id="V67-AV-Cpt"/>
                                                 <constraint firstAttribute="trailing" secondItem="fKq-zH-Wf9" secondAttribute="trailing" constant="10" id="abz-0V-yfW"/>
                                                 <constraint firstItem="RTS-ko-F2J" firstAttribute="leading" secondItem="IHq-W6-EI5" secondAttribute="leading" constant="10" id="k55-5M-wj6"/>
                                                 <constraint firstItem="RTS-ko-F2J" firstAttribute="centerY" secondItem="IHq-W6-EI5" secondAttribute="centerY" id="rZe-Dj-6C9"/>
@@ -80,16 +83,210 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kGR-B1-gkf"/>
                     <connections>
                         <outlet property="listLessons" destination="A08-BM-Igc" id="8mE-Tr-BhR"/>
+                        <segue destination="id7-Sl-Yxn" kind="show" identifier="ShowPdf" id="JcG-gA-GMe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+            <point key="canvasLocation" x="456.80000000000001" y="118.29085457271366"/>
+        </scene>
+        <!--ViewerVC-->
+        <scene sceneID="dHm-Cg-MIA">
+            <objects>
+                <viewController id="id7-Sl-Yxn" customClass="PDFViewerVC" customModule="DiaLyVietNam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kvQ-8b-Wn0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCV-WJ-W7O">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uvz-qf-JP4" firstAttribute="bottom" secondItem="XCV-WJ-W7O" secondAttribute="bottom" id="5BT-ta-ZlW"/>
+                            <constraint firstItem="XCV-WJ-W7O" firstAttribute="leading" secondItem="uvz-qf-JP4" secondAttribute="leading" id="Obf-3d-F7O"/>
+                            <constraint firstItem="uvz-qf-JP4" firstAttribute="trailing" secondItem="XCV-WJ-W7O" secondAttribute="trailing" id="WAs-5f-Weg"/>
+                            <constraint firstItem="XCV-WJ-W7O" firstAttribute="top" secondItem="uvz-qf-JP4" secondAttribute="top" id="wBb-Wt-SfN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uvz-qf-JP4"/>
+                    </view>
+                    <connections>
+                        <outlet property="webview" destination="XCV-WJ-W7O" id="SAS-T7-18N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fNj-gG-Xmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461.5999999999999" y="126.38680659670166"/>
+        </scene>
+        <!--HomeVC-->
+        <scene sceneID="9LP-6C-IZf">
+            <objects>
+                <viewController id="0o5-i8-luJ" customClass="HomeVC" customModule="DiaLyVietNam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sFl-mD-r3K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atlas" translatesAutoresizingMaskIntoConstraints="NO" id="9sm-nJ-UTt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phần Mềm Ôn Tập Địa Lý Lớp 12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTd-rb-p6X">
+                                <rect key="frame" x="15" y="79" width="345" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="cJi-9V-lDo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Italic" family="Hoefler Text" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tr9-fn-q6h">
+                                <rect key="frame" x="30" y="304" width="315" height="50"/>
+                                <color key="backgroundColor" red="0.0961352018" green="0.26522526950000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ORv-ED-f8g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Italic" family="Hoefler Text" pointSize="25"/>
+                                <state key="normal" title="Danh sách các bài học">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="VIo-Y0-Hlp" kind="show" id="oBm-H1-euK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fka-hu-rlT">
+                                <rect key="frame" x="30" y="379" width="315" height="50"/>
+                                <color key="backgroundColor" red="0.0961352018" green="0.26522526950000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="j8f-fG-JZN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Italic" family="Hoefler Text" pointSize="25"/>
+                                <state key="normal" title="Trắc nghiệm ôn tập">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="yfU-cG-TxC" kind="show" id="gug-jT-010"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fka-hu-rlT" firstAttribute="top" secondItem="tr9-fn-q6h" secondAttribute="bottom" constant="25" id="8ua-UM-iiG"/>
+                            <constraint firstItem="9sm-nJ-UTt" firstAttribute="bottom" secondItem="IfM-wM-b5u" secondAttribute="bottom" id="9UH-qm-QMw"/>
+                            <constraint firstItem="9sm-nJ-UTt" firstAttribute="top" secondItem="sFl-mD-r3K" secondAttribute="top" id="Grw-OR-hOi"/>
+                            <constraint firstItem="tr9-fn-q6h" firstAttribute="top" secondItem="lTd-rb-p6X" secondAttribute="bottom" constant="35" id="K5Z-Q9-b4A"/>
+                            <constraint firstItem="IfM-wM-b5u" firstAttribute="trailing" secondItem="tr9-fn-q6h" secondAttribute="trailing" constant="30" id="KJd-nJ-9oH"/>
+                            <constraint firstItem="tr9-fn-q6h" firstAttribute="leading" secondItem="IfM-wM-b5u" secondAttribute="leading" constant="30" id="Oro-3S-rek"/>
+                            <constraint firstItem="9sm-nJ-UTt" firstAttribute="trailing" secondItem="IfM-wM-b5u" secondAttribute="trailing" id="ROX-T4-Ufi"/>
+                            <constraint firstItem="lTd-rb-p6X" firstAttribute="leading" secondItem="IfM-wM-b5u" secondAttribute="leading" constant="15" id="fOs-mv-ODb"/>
+                            <constraint firstItem="Fka-hu-rlT" firstAttribute="leading" secondItem="tr9-fn-q6h" secondAttribute="leading" id="fX9-Jf-uAd"/>
+                            <constraint firstItem="lTd-rb-p6X" firstAttribute="top" secondItem="IfM-wM-b5u" secondAttribute="top" constant="15" id="gOQ-6E-uFU"/>
+                            <constraint firstItem="Fka-hu-rlT" firstAttribute="trailing" secondItem="tr9-fn-q6h" secondAttribute="trailing" id="mmH-ex-EWf"/>
+                            <constraint firstItem="9sm-nJ-UTt" firstAttribute="leading" secondItem="IfM-wM-b5u" secondAttribute="leading" id="vWD-tE-4XA"/>
+                            <constraint firstItem="IfM-wM-b5u" firstAttribute="trailing" secondItem="lTd-rb-p6X" secondAttribute="trailing" constant="15" id="zUQ-jq-rez"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IfM-wM-b5u"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7uy-9c-a72"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdi-De-v5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-753" y="833"/>
+        </scene>
+        <!--ExerciseVC-->
+        <scene sceneID="9jp-Uu-mJt">
+            <objects>
+                <viewController id="yfU-cG-TxC" customClass="ExerciseVC" customModule="DiaLyVietNam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M8M-xU-M7e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-3l-1HE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="H0o-3l-1HE" firstAttribute="bottom" secondItem="RPD-iW-K0u" secondAttribute="bottom" id="Wbf-Vm-4WP"/>
+                            <constraint firstItem="H0o-3l-1HE" firstAttribute="leading" secondItem="RPD-iW-K0u" secondAttribute="leading" id="XX3-2T-yA5"/>
+                            <constraint firstItem="H0o-3l-1HE" firstAttribute="trailing" secondItem="RPD-iW-K0u" secondAttribute="trailing" id="Yx6-Yc-lm9"/>
+                            <constraint firstItem="H0o-3l-1HE" firstAttribute="top" secondItem="M8M-xU-M7e" secondAttribute="top" id="ilO-1Z-scl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RPD-iW-K0u"/>
+                    </view>
+                    <connections>
+                        <outlet property="webKit" destination="H0o-3l-1HE" id="irp-E4-Rc8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k3f-Y9-g5P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398.5" y="1099.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ueo-tN-04C">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VIo-Y0-Hlp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rWT-bs-0MD">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="roa-UI-0rc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1FQ-AV-1eR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-308" y="128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="p5y-9n-SlM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eHR-e4-4cN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CN4-qZ-wPe">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0o5-i8-luJ" kind="relationship" relationship="rootViewController" id="HQb-yc-5ao"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zRc-MG-EhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1436" y="834"/>
         </scene>
     </scenes>
     <resources>
         <image name="Book1" width="32" height="32"/>
+        <image name="atlas" width="852" height="1149"/>
     </resources>
 </document>

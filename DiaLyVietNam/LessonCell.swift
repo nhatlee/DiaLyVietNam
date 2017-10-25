@@ -18,7 +18,7 @@ class LessonCell: UITableViewCell {
     }
     
     func loadCell(lesson: Lesson){
-        lblLessonName.text = "Bài: \(lesson.name)"
+        lblLessonName.text = lesson.name
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -9,11 +9,18 @@
 import Foundation
 struct Lesson {
     let name: String
-    let filePathPdf: String
+    let fileNamePdf: String
     
 }
 
 struct Chapter {
     let name: String
-    let lessons: [Lesson]
+    let subChapter: SubChapter
 }
+
+struct SubChapter {
+    let name: String
+    let lesson: [Lesson]
+}
+
+

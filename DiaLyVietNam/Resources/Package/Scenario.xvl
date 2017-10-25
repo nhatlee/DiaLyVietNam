@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LECTURE_INFO AppName="Lesson" Version="1.922" Title="" Layout="Layout1.swf" CommonDir="Common">
+  <SECTION_INFO label="Chủ đề 1">
+    <ITEM_INFO label="Mục 1" title="">
+      <PLUGIN url="Common/Racing.swf" filetags="item.question_image;item.option1_image;item.option2_image;item.option3_image;item.option4_image" left="34" top="47" player="vpOlympicRacing\Racing.swf" id="0">
+        <OLYMPIC_RACING_INFO library="">
+          <root data_source_id="0" time="600" correct_point="" wrong_point="" error_limit="" grade="1" total_question="10">
+            <item question="cau 1" question_image="" type="0" option1="a" option2="b" option3="c" option4="d" option1_image="" option2_image="" option3_image="" option4_image="" answer="1" />
+          </root>
+        </OLYMPIC_RACING_INFO>
+        <EXTRA_INFO>
+          <LANGUAGE start="BẮT ĐẦU" restart="LÀM LẠI" point="Điểm" time="Thời gian" overtime="Hết giờ" errorLimit="Sai quá nhiều lần" correct="Đúng rồi!" wrong="Tiếc quá, sai rồi!" finished="BẠN ĐÃ HOÀN THÀNH BÀI THI" second="giây" rule="Bạn hãy chọn đáp án trả lời thích hợp trong 4 đáp án cho sẵn hoặc điền câu trả lời thích hợp vào ô trống." gameName="Đua xe" solution="ĐÁP ÁN" question="CÂU HỎI" question2="Câu hỏi" answer="TRẢ LỜI" reset="SỬA" />
+        </EXTRA_INFO>
+      </PLUGIN>
+    </ITEM_INFO>
+  </SECTION_INFO>
+</LECTURE_INFO>
