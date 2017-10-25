@@ -7,41 +7,65 @@
 //
 
 import UIKit
-import WebKit
+import CHTCollectionViewWaterfallLayout
 
-class ExerciseVC: UIViewController, UIWebViewDelegate {
+class ExerciseVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, CHTCollectionViewDelegateWaterfallLayout {
 
-    @IBOutlet weak var webKit: UIWebView!
+    @IBOutlet weak var lblQuestion: UILabel!
+    @IBOutlet weak var btnLeft1: UIButton!
+    @IBOutlet weak var btnLeft2: UIButton!
+    @IBOutlet weak var btnRigh1: UIButton!
+    @IBOutlet weak var btnRight2: UIButton!
+    var listQuestion = [Question]()
+    private var currentItem = 0
+    @IBOutlet weak var clvQuestion: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        webKit.delegate = self
-        if let path = Bundle.main.path(forResource: "Index", ofType: "html") {
-            print(URL(fileURLWithPath: path))
-            webKit.loadRequest(URLRequest(url: URL(fileURLWithPath: path)))
-        }
+        let ques = prepareQuestion()
+        listQuestion = ques[randomPick: 20]
+        self.navigationItem.title = "Trắc nghiệm ôn tập"
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
         // Do any additional setup after loading the view.
     }
-    func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
-        print(error.localizedDescription)
-    }
     
-    func webViewDidFinishLoad(_ webView: UIWebView) {
-        print("webViewDidFinishLoad")
-    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return listQuestion.count
     }
-    */
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "QuestionCell", for: indexPath) as! QuestionCell
+        let ques = listQuestion[indexPath.item]
+        cell.loadCell(ques: ques)
+        cell.delegate = self
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
+        return CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.height)
+    }
 
+}
+
+extension ExerciseVC : CellDelegate{
+    func nextAction() {
+        if currentItem >= listQuestion.count { return }
+        currentItem = currentItem == (listQuestion.count - 1)  ? (listQuestion.count - 1) : (currentItem + 1)
+        guard currentItem <= listQuestion.count else{ return }
+        let indexPath = IndexPath(row: currentItem, section: 0)
+        clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
+    }
+    
+    func previous() {
+        guard currentItem <= listQuestion.count,  currentItem >= 0 else{ return }
+        currentItem = currentItem == 0 ? 0 : (currentItem - 1)
+        let indexPath = IndexPath(row: currentItem, section: 0)
+        clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
+    }
 }

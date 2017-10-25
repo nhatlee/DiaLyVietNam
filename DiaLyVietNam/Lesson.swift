@@ -24,3 +24,13 @@ struct SubChapter {
 }
 
 
+struct Question {
+    let content: String
+    let answers: [Answer]
+}
+
+struct Answer {
+    let content: String
+    let isCorrect: Bool
+}
+

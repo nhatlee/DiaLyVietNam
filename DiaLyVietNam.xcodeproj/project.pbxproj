@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E4B28E14213AE26A5F4745 /* Pods_DiaLyVietNam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1E2239CE42AC13F0F4F8DC /* Pods_DiaLyVietNam.framework */; };
 		DD5FCC0F1F9F164500A469D3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCC0E1F9F164500A469D3 /* HomeVC.swift */; };
 		DD5FCC111F9F1C0500A469D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCC101F9F1C0500A469D3 /* Extensions.swift */; };
 		DD5FCC2E1F9F528C00A469D3 /* Index.html in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC271F9F528C00A469D3 /* Index.html */; };
@@ -17,37 +18,37 @@
 		DD5FCC331F9F528C00A469D3 /* thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC2D1F9F528C00A469D3 /* thumbnail.jpg */; };
 		DD5FCC351F9F544100A469D3 /* ExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCC341F9F544100A469D3 /* ExerciseVC.swift */; };
 		DD5FCC3D1F9F7B9200A469D3 /* PhuLuc.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC3C1F9F7B9200A469D3 /* PhuLuc.txt */; };
-		DD5FCC9D1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC7E1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf */; };
-		DD5FCC9E1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC7F1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf */; };
+		DD5FCC9D1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC7E1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf */; };
+		DD5FCC9E1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC7F1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf */; };
 		DD5FCC9F1F9F7FDE00A469D3 /* BÀI 6 VÀ BÀI 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC801F9F7FDE00A469D3 /* BÀI 6 VÀ BÀI 7.pdf */; };
-		DD5FCCA01F9F7FDE00A469D3 /* BÀI 39.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC811F9F7FDE00A469D3 /* BÀI 39.pdf */; };
-		DD5FCCA11F9F7FDE00A469D3 /* BÀI 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC821F9F7FDE00A469D3 /* BÀI 8.pdf */; };
-		DD5FCCA21F9F7FDE00A469D3 /* BÀI 28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC831F9F7FDE00A469D3 /* BÀI 28.pdf */; };
-		DD5FCCA31F9F7FDE00A469D3 /* BÀI 14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC841F9F7FDE00A469D3 /* BÀI 14.pdf */; };
-		DD5FCCA41F9F7FDE00A469D3 /* BÀI 15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC851F9F7FDE00A469D3 /* BÀI 15.pdf */; };
-		DD5FCCA51F9F7FDE00A469D3 /* BÀI 17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC861F9F7FDE00A469D3 /* BÀI 17.pdf */; };
-		DD5FCCA61F9F7FDE00A469D3 /* BÀI 16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC871F9F7FDE00A469D3 /* BÀI 16.pdf */; };
-		DD5FCCA71F9F7FDE00A469D3 /* BÀI 27.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC881F9F7FDE00A469D3 /* BÀI 27.pdf */; };
-		DD5FCCA81F9F7FDE00A469D3 /* BÀI 33.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC891F9F7FDE00A469D3 /* BÀI 33.pdf */; };
-		DD5FCCA91F9F7FDE00A469D3 /* BÀI 32.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8A1F9F7FDE00A469D3 /* BÀI 32.pdf */; };
-		DD5FCCAA1F9F7FDE00A469D3 /* BÀI 26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8B1F9F7FDE00A469D3 /* BÀI 26.pdf */; };
-		DD5FCCAB1F9F7FDE00A469D3 /* BÀI 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8C1F9F7FDE00A469D3 /* BÀI 2.pdf */; };
-		DD5FCCAC1F9F7FDE00A469D3 /* BÀI 30.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8D1F9F7FDE00A469D3 /* BÀI 30.pdf */; };
-		DD5FCCAD1F9F7FDE00A469D3 /* BÀI 24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8E1F9F7FDE00A469D3 /* BÀI 24.pdf */; };
-		DD5FCCAE1F9F7FDE00A469D3 /* BÀI 18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8F1F9F7FDE00A469D3 /* BÀI 18.pdf */; };
-		DD5FCCAF1F9F7FDE00A469D3 /* BÀI 25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC901F9F7FDE00A469D3 /* BÀI 25.pdf */; };
-		DD5FCCB01F9F7FDE00A469D3 /* BÀI 31.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC911F9F7FDE00A469D3 /* BÀI 31.pdf */; };
-		DD5FCCB11F9F7FDE00A469D3 /* BÀI 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC921F9F7FDE00A469D3 /* BÀI 1.pdf */; };
-		DD5FCCB21F9F7FDE00A469D3 /* BÀI 35.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC931F9F7FDE00A469D3 /* BÀI 35.pdf */; };
-		DD5FCCB31F9F7FDE00A469D3 /* BÀI 21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC941F9F7FDE00A469D3 /* BÀI 21.pdf */; };
-		DD5FCCB41F9F7FDE00A469D3 /* BÀI 20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC951F9F7FDE00A469D3 /* BÀI 20.pdf */; };
-		DD5FCCB51F9F7FDE00A469D3 /* BÀI 22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC961F9F7FDE00A469D3 /* BÀI 22.pdf */; };
-		DD5FCCB61F9F7FDE00A469D3 /* BÀI 36.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC971F9F7FDE00A469D3 /* BÀI 36.pdf */; };
-		DD5FCCB71F9F7FDE00A469D3 /* BÀI 37.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC981F9F7FDE00A469D3 /* BÀI 37.pdf */; };
-		DD5FCCB81F9F7FDE00A469D3 /* BÀI 42.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC991F9F7FDE00A469D3 /* BÀI 42.pdf */; };
-		DD5FCCB91F9F7FDE00A469D3 /* BÀI 43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC9A1F9F7FDE00A469D3 /* BÀI 43.pdf */; };
-		DD5FCCBA1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC9B1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf */; };
-		DD5FCCBB1F9F7FDE00A469D3 /* BÀI 41.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC9C1F9F7FDE00A469D3 /* BÀI 41.pdf */; };
+		DD5FCCA01F9F7FDE00A469D3 /* BÀI 39.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC811F9F7FDE00A469D3 /* BÀI 39.pdf */; };
+		DD5FCCA11F9F7FDE00A469D3 /* BÀI 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC821F9F7FDE00A469D3 /* BÀI 8.pdf */; };
+		DD5FCCA21F9F7FDE00A469D3 /* BÀI 28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC831F9F7FDE00A469D3 /* BÀI 28.pdf */; };
+		DD5FCCA31F9F7FDE00A469D3 /* BÀI 14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC841F9F7FDE00A469D3 /* BÀI 14.pdf */; };
+		DD5FCCA41F9F7FDE00A469D3 /* BÀI 15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC851F9F7FDE00A469D3 /* BÀI 15.pdf */; };
+		DD5FCCA51F9F7FDE00A469D3 /* BÀI 17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC861F9F7FDE00A469D3 /* BÀI 17.pdf */; };
+		DD5FCCA61F9F7FDE00A469D3 /* BÀI 16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC871F9F7FDE00A469D3 /* BÀI 16.pdf */; };
+		DD5FCCA71F9F7FDE00A469D3 /* BÀI 27.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC881F9F7FDE00A469D3 /* BÀI 27.pdf */; };
+		DD5FCCA81F9F7FDE00A469D3 /* BÀI 33.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC891F9F7FDE00A469D3 /* BÀI 33.pdf */; };
+		DD5FCCA91F9F7FDE00A469D3 /* BÀI 32.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8A1F9F7FDE00A469D3 /* BÀI 32.pdf */; };
+		DD5FCCAA1F9F7FDE00A469D3 /* BÀI 26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8B1F9F7FDE00A469D3 /* BÀI 26.pdf */; };
+		DD5FCCAB1F9F7FDE00A469D3 /* BÀI 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8C1F9F7FDE00A469D3 /* BÀI 2.pdf */; };
+		DD5FCCAC1F9F7FDE00A469D3 /* BÀI 30.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8D1F9F7FDE00A469D3 /* BÀI 30.pdf */; };
+		DD5FCCAD1F9F7FDE00A469D3 /* BÀI 24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8E1F9F7FDE00A469D3 /* BÀI 24.pdf */; };
+		DD5FCCAE1F9F7FDE00A469D3 /* BÀI 18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC8F1F9F7FDE00A469D3 /* BÀI 18.pdf */; };
+		DD5FCCAF1F9F7FDE00A469D3 /* BÀI 25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC901F9F7FDE00A469D3 /* BÀI 25.pdf */; };
+		DD5FCCB01F9F7FDE00A469D3 /* BÀI 31.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC911F9F7FDE00A469D3 /* BÀI 31.pdf */; };
+		DD5FCCB11F9F7FDE00A469D3 /* BÀI 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC921F9F7FDE00A469D3 /* BÀI 1.pdf */; };
+		DD5FCCB21F9F7FDE00A469D3 /* BÀI 35.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC931F9F7FDE00A469D3 /* BÀI 35.pdf */; };
+		DD5FCCB31F9F7FDE00A469D3 /* BÀI 21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC941F9F7FDE00A469D3 /* BÀI 21.pdf */; };
+		DD5FCCB41F9F7FDE00A469D3 /* BÀI 20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC951F9F7FDE00A469D3 /* BÀI 20.pdf */; };
+		DD5FCCB51F9F7FDE00A469D3 /* BÀI 22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC961F9F7FDE00A469D3 /* BÀI 22.pdf */; };
+		DD5FCCB61F9F7FDE00A469D3 /* BÀI 36.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC971F9F7FDE00A469D3 /* BÀI 36.pdf */; };
+		DD5FCCB71F9F7FDE00A469D3 /* BÀI 37.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC981F9F7FDE00A469D3 /* BÀI 37.pdf */; };
+		DD5FCCB81F9F7FDE00A469D3 /* BÀI 42.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC991F9F7FDE00A469D3 /* BÀI 42.pdf */; };
+		DD5FCCB91F9F7FDE00A469D3 /* BÀI 43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC9A1F9F7FDE00A469D3 /* BÀI 43.pdf */; };
+		DD5FCCBA1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC9B1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf */; };
+		DD5FCCBB1F9F7FDE00A469D3 /* BÀI 41.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5FCC9C1F9F7FDE00A469D3 /* BÀI 41.pdf */; };
 		DD5FCCBD1F9F899900A469D3 /* PDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCCBC1F9F899900A469D3 /* PDFViewerVC.swift */; };
 		DD6A19C61F9ED06B00798400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A19C51F9ED06B00798400 /* AppDelegate.swift */; };
 		DD6A19C81F9ED06B00798400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A19C71F9ED06B00798400 /* ViewController.swift */; };
@@ -57,9 +58,13 @@
 		DD6A19D81F9ED30C00798400 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A19D71F9ED30C00798400 /* Lesson.swift */; };
 		DD6A19DA1F9ED39500798400 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A19D91F9ED39500798400 /* LessonViewModel.swift */; };
 		DD6A19DC1F9ED65100798400 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A19DB1F9ED65100798400 /* LessonCell.swift */; };
+		DDA3E7CD1FA03E510066FCB2 /* Questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDA3E7CC1FA03E500066FCB2 /* Questions.txt */; };
+		DDA3E7CF1FA0466D0066FCB2 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA3E7CE1FA0466D0066FCB2 /* QuestionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D68BEAB3B1F84A2675D5480 /* Pods-DiaLyVietNam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaLyVietNam.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam.release.xcconfig"; sourceTree = "<group>"; };
+		DB1E2239CE42AC13F0F4F8DC /* Pods_DiaLyVietNam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaLyVietNam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5FCC0E1F9F164500A469D3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DD5FCC101F9F1C0500A469D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DD5FCC271F9F528C00A469D3 /* Index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
@@ -70,37 +75,37 @@
 		DD5FCC2D1F9F528C00A469D3 /* thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnail.jpg; sourceTree = "<group>"; };
 		DD5FCC341F9F544100A469D3 /* ExerciseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseVC.swift; sourceTree = "<group>"; };
 		DD5FCC3C1F9F7B9200A469D3 /* PhuLuc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PhuLuc.txt; sourceTree = "<group>"; };
-		DD5FCC7E1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 9 VÀ BÀI 10.pdf"; sourceTree = "<group>"; };
-		DD5FCC7F1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 11 VÀ BÀI 12.pdf"; sourceTree = "<group>"; };
+		DD5FCC7E1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 9 VÀ BÀI 10.pdf"; sourceTree = "<group>"; };
+		DD5FCC7F1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 11 VÀ BÀI 12.pdf"; sourceTree = "<group>"; };
 		DD5FCC801F9F7FDE00A469D3 /* BÀI 6 VÀ BÀI 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 6 VÀ BÀI 7.pdf"; sourceTree = "<group>"; };
-		DD5FCC811F9F7FDE00A469D3 /* BÀI 39.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 39.pdf"; sourceTree = "<group>"; };
-		DD5FCC821F9F7FDE00A469D3 /* BÀI 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 8.pdf"; sourceTree = "<group>"; };
-		DD5FCC831F9F7FDE00A469D3 /* BÀI 28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 28.pdf"; sourceTree = "<group>"; };
-		DD5FCC841F9F7FDE00A469D3 /* BÀI 14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 14.pdf"; sourceTree = "<group>"; };
-		DD5FCC851F9F7FDE00A469D3 /* BÀI 15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 15.pdf"; sourceTree = "<group>"; };
-		DD5FCC861F9F7FDE00A469D3 /* BÀI 17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 17.pdf"; sourceTree = "<group>"; };
-		DD5FCC871F9F7FDE00A469D3 /* BÀI 16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 16.pdf"; sourceTree = "<group>"; };
-		DD5FCC881F9F7FDE00A469D3 /* BÀI 27.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 27.pdf"; sourceTree = "<group>"; };
-		DD5FCC891F9F7FDE00A469D3 /* BÀI 33.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 33.pdf"; sourceTree = "<group>"; };
-		DD5FCC8A1F9F7FDE00A469D3 /* BÀI 32.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 32.pdf"; sourceTree = "<group>"; };
-		DD5FCC8B1F9F7FDE00A469D3 /* BÀI 26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 26.pdf"; sourceTree = "<group>"; };
-		DD5FCC8C1F9F7FDE00A469D3 /* BÀI 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 2.pdf"; sourceTree = "<group>"; };
-		DD5FCC8D1F9F7FDE00A469D3 /* BÀI 30.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 30.pdf"; sourceTree = "<group>"; };
-		DD5FCC8E1F9F7FDE00A469D3 /* BÀI 24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 24.pdf"; sourceTree = "<group>"; };
-		DD5FCC8F1F9F7FDE00A469D3 /* BÀI 18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 18.pdf"; sourceTree = "<group>"; };
-		DD5FCC901F9F7FDE00A469D3 /* BÀI 25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 25.pdf"; sourceTree = "<group>"; };
-		DD5FCC911F9F7FDE00A469D3 /* BÀI 31.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 31.pdf"; sourceTree = "<group>"; };
-		DD5FCC921F9F7FDE00A469D3 /* BÀI 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 1.pdf"; sourceTree = "<group>"; };
-		DD5FCC931F9F7FDE00A469D3 /* BÀI 35.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 35.pdf"; sourceTree = "<group>"; };
-		DD5FCC941F9F7FDE00A469D3 /* BÀI 21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 21.pdf"; sourceTree = "<group>"; };
-		DD5FCC951F9F7FDE00A469D3 /* BÀI 20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 20.pdf"; sourceTree = "<group>"; };
-		DD5FCC961F9F7FDE00A469D3 /* BÀI 22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 22.pdf"; sourceTree = "<group>"; };
-		DD5FCC971F9F7FDE00A469D3 /* BÀI 36.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 36.pdf"; sourceTree = "<group>"; };
-		DD5FCC981F9F7FDE00A469D3 /* BÀI 37.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 37.pdf"; sourceTree = "<group>"; };
-		DD5FCC991F9F7FDE00A469D3 /* BÀI 42.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 42.pdf"; sourceTree = "<group>"; };
-		DD5FCC9A1F9F7FDE00A469D3 /* BÀI 43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 43.pdf"; sourceTree = "<group>"; };
-		DD5FCC9B1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 4 VÀ BÀI 5.pdf"; sourceTree = "<group>"; };
-		DD5FCC9C1F9F7FDE00A469D3 /* BÀI 41.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 41.pdf"; sourceTree = "<group>"; };
+		DD5FCC811F9F7FDE00A469D3 /* BÀI 39.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 39.pdf"; sourceTree = "<group>"; };
+		DD5FCC821F9F7FDE00A469D3 /* BÀI 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 8.pdf"; sourceTree = "<group>"; };
+		DD5FCC831F9F7FDE00A469D3 /* BÀI 28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 28.pdf"; sourceTree = "<group>"; };
+		DD5FCC841F9F7FDE00A469D3 /* BÀI 14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 14.pdf"; sourceTree = "<group>"; };
+		DD5FCC851F9F7FDE00A469D3 /* BÀI 15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 15.pdf"; sourceTree = "<group>"; };
+		DD5FCC861F9F7FDE00A469D3 /* BÀI 17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 17.pdf"; sourceTree = "<group>"; };
+		DD5FCC871F9F7FDE00A469D3 /* BÀI 16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 16.pdf"; sourceTree = "<group>"; };
+		DD5FCC881F9F7FDE00A469D3 /* BÀI 27.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 27.pdf"; sourceTree = "<group>"; };
+		DD5FCC891F9F7FDE00A469D3 /* BÀI 33.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 33.pdf"; sourceTree = "<group>"; };
+		DD5FCC8A1F9F7FDE00A469D3 /* BÀI 32.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 32.pdf"; sourceTree = "<group>"; };
+		DD5FCC8B1F9F7FDE00A469D3 /* BÀI 26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 26.pdf"; sourceTree = "<group>"; };
+		DD5FCC8C1F9F7FDE00A469D3 /* BÀI 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 2.pdf"; sourceTree = "<group>"; };
+		DD5FCC8D1F9F7FDE00A469D3 /* BÀI 30.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 30.pdf"; sourceTree = "<group>"; };
+		DD5FCC8E1F9F7FDE00A469D3 /* BÀI 24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 24.pdf"; sourceTree = "<group>"; };
+		DD5FCC8F1F9F7FDE00A469D3 /* BÀI 18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 18.pdf"; sourceTree = "<group>"; };
+		DD5FCC901F9F7FDE00A469D3 /* BÀI 25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 25.pdf"; sourceTree = "<group>"; };
+		DD5FCC911F9F7FDE00A469D3 /* BÀI 31.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 31.pdf"; sourceTree = "<group>"; };
+		DD5FCC921F9F7FDE00A469D3 /* BÀI 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 1.pdf"; sourceTree = "<group>"; };
+		DD5FCC931F9F7FDE00A469D3 /* BÀI 35.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 35.pdf"; sourceTree = "<group>"; };
+		DD5FCC941F9F7FDE00A469D3 /* BÀI 21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 21.pdf"; sourceTree = "<group>"; };
+		DD5FCC951F9F7FDE00A469D3 /* BÀI 20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 20.pdf"; sourceTree = "<group>"; };
+		DD5FCC961F9F7FDE00A469D3 /* BÀI 22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 22.pdf"; sourceTree = "<group>"; };
+		DD5FCC971F9F7FDE00A469D3 /* BÀI 36.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 36.pdf"; sourceTree = "<group>"; };
+		DD5FCC981F9F7FDE00A469D3 /* BÀI 37.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 37.pdf"; sourceTree = "<group>"; };
+		DD5FCC991F9F7FDE00A469D3 /* BÀI 42.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 42.pdf"; sourceTree = "<group>"; };
+		DD5FCC9A1F9F7FDE00A469D3 /* BÀI 43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 43.pdf"; sourceTree = "<group>"; };
+		DD5FCC9B1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 4 VÀ BÀI 5.pdf"; sourceTree = "<group>"; };
+		DD5FCC9C1F9F7FDE00A469D3 /* BÀI 41.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BÀI 41.pdf"; sourceTree = "<group>"; };
 		DD5FCCBC1F9F899900A469D3 /* PDFViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerVC.swift; sourceTree = "<group>"; };
 		DD6A19C21F9ED06B00798400 /* DiaLyVietNam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaLyVietNam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6A19C51F9ED06B00798400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +117,9 @@
 		DD6A19D71F9ED30C00798400 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		DD6A19D91F9ED39500798400 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
 		DD6A19DB1F9ED65100798400 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
+		DDA3E7CC1FA03E500066FCB2 /* Questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Questions.txt; sourceTree = "<group>"; };
+		DDA3E7CE1FA0466D0066FCB2 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		E7B7121476A83203CB2A1CF8 /* Pods-DiaLyVietNam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaLyVietNam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,15 +127,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E4B28E14213AE26A5F4745 /* Pods_DiaLyVietNam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F3B7DDB5A44A3A2968B19D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1E2239CE42AC13F0F4F8DC /* Pods_DiaLyVietNam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95765A9E74C6D8DD22A73E8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B7121476A83203CB2A1CF8 /* Pods-DiaLyVietNam.debug.xcconfig */,
+				9D68BEAB3B1F84A2675D5480 /* Pods-DiaLyVietNam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD499BDA1F9F11F900F29EC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DDA3E7CC1FA03E500066FCB2 /* Questions.txt */,
 				DD5FCC7D1F9F7FDE00A469D3 /* pdf */,
 				DD5FCC3C1F9F7B9200A469D3 /* PhuLuc.txt */,
 				DD5FCC261F9F528C00A469D3 /* Package */,
@@ -159,37 +186,37 @@
 		DD5FCC7D1F9F7FDE00A469D3 /* pdf */ = {
 			isa = PBXGroup;
 			children = (
-				DD5FCC7E1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf */,
-				DD5FCC7F1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf */,
+				DD5FCC7E1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf */,
+				DD5FCC7F1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf */,
 				DD5FCC801F9F7FDE00A469D3 /* BÀI 6 VÀ BÀI 7.pdf */,
-				DD5FCC811F9F7FDE00A469D3 /* BÀI 39.pdf */,
-				DD5FCC821F9F7FDE00A469D3 /* BÀI 8.pdf */,
-				DD5FCC831F9F7FDE00A469D3 /* BÀI 28.pdf */,
-				DD5FCC841F9F7FDE00A469D3 /* BÀI 14.pdf */,
-				DD5FCC851F9F7FDE00A469D3 /* BÀI 15.pdf */,
-				DD5FCC861F9F7FDE00A469D3 /* BÀI 17.pdf */,
-				DD5FCC871F9F7FDE00A469D3 /* BÀI 16.pdf */,
-				DD5FCC881F9F7FDE00A469D3 /* BÀI 27.pdf */,
-				DD5FCC891F9F7FDE00A469D3 /* BÀI 33.pdf */,
-				DD5FCC8A1F9F7FDE00A469D3 /* BÀI 32.pdf */,
-				DD5FCC8B1F9F7FDE00A469D3 /* BÀI 26.pdf */,
-				DD5FCC8C1F9F7FDE00A469D3 /* BÀI 2.pdf */,
-				DD5FCC8D1F9F7FDE00A469D3 /* BÀI 30.pdf */,
-				DD5FCC8E1F9F7FDE00A469D3 /* BÀI 24.pdf */,
-				DD5FCC8F1F9F7FDE00A469D3 /* BÀI 18.pdf */,
-				DD5FCC901F9F7FDE00A469D3 /* BÀI 25.pdf */,
-				DD5FCC911F9F7FDE00A469D3 /* BÀI 31.pdf */,
-				DD5FCC921F9F7FDE00A469D3 /* BÀI 1.pdf */,
-				DD5FCC931F9F7FDE00A469D3 /* BÀI 35.pdf */,
-				DD5FCC941F9F7FDE00A469D3 /* BÀI 21.pdf */,
-				DD5FCC951F9F7FDE00A469D3 /* BÀI 20.pdf */,
-				DD5FCC961F9F7FDE00A469D3 /* BÀI 22.pdf */,
-				DD5FCC971F9F7FDE00A469D3 /* BÀI 36.pdf */,
-				DD5FCC981F9F7FDE00A469D3 /* BÀI 37.pdf */,
-				DD5FCC991F9F7FDE00A469D3 /* BÀI 42.pdf */,
-				DD5FCC9A1F9F7FDE00A469D3 /* BÀI 43.pdf */,
-				DD5FCC9B1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf */,
-				DD5FCC9C1F9F7FDE00A469D3 /* BÀI 41.pdf */,
+				DD5FCC811F9F7FDE00A469D3 /* BÀI 39.pdf */,
+				DD5FCC821F9F7FDE00A469D3 /* BÀI 8.pdf */,
+				DD5FCC831F9F7FDE00A469D3 /* BÀI 28.pdf */,
+				DD5FCC841F9F7FDE00A469D3 /* BÀI 14.pdf */,
+				DD5FCC851F9F7FDE00A469D3 /* BÀI 15.pdf */,
+				DD5FCC861F9F7FDE00A469D3 /* BÀI 17.pdf */,
+				DD5FCC871F9F7FDE00A469D3 /* BÀI 16.pdf */,
+				DD5FCC881F9F7FDE00A469D3 /* BÀI 27.pdf */,
+				DD5FCC891F9F7FDE00A469D3 /* BÀI 33.pdf */,
+				DD5FCC8A1F9F7FDE00A469D3 /* BÀI 32.pdf */,
+				DD5FCC8B1F9F7FDE00A469D3 /* BÀI 26.pdf */,
+				DD5FCC8C1F9F7FDE00A469D3 /* BÀI 2.pdf */,
+				DD5FCC8D1F9F7FDE00A469D3 /* BÀI 30.pdf */,
+				DD5FCC8E1F9F7FDE00A469D3 /* BÀI 24.pdf */,
+				DD5FCC8F1F9F7FDE00A469D3 /* BÀI 18.pdf */,
+				DD5FCC901F9F7FDE00A469D3 /* BÀI 25.pdf */,
+				DD5FCC911F9F7FDE00A469D3 /* BÀI 31.pdf */,
+				DD5FCC921F9F7FDE00A469D3 /* BÀI 1.pdf */,
+				DD5FCC931F9F7FDE00A469D3 /* BÀI 35.pdf */,
+				DD5FCC941F9F7FDE00A469D3 /* BÀI 21.pdf */,
+				DD5FCC951F9F7FDE00A469D3 /* BÀI 20.pdf */,
+				DD5FCC961F9F7FDE00A469D3 /* BÀI 22.pdf */,
+				DD5FCC971F9F7FDE00A469D3 /* BÀI 36.pdf */,
+				DD5FCC981F9F7FDE00A469D3 /* BÀI 37.pdf */,
+				DD5FCC991F9F7FDE00A469D3 /* BÀI 42.pdf */,
+				DD5FCC9A1F9F7FDE00A469D3 /* BÀI 43.pdf */,
+				DD5FCC9B1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf */,
+				DD5FCC9C1F9F7FDE00A469D3 /* BÀI 41.pdf */,
 			);
 			path = pdf;
 			sourceTree = "<group>";
@@ -199,6 +226,8 @@
 			children = (
 				DD6A19C41F9ED06B00798400 /* DiaLyVietNam */,
 				DD6A19C31F9ED06B00798400 /* Products */,
+				95765A9E74C6D8DD22A73E8F /* Pods */,
+				6F3B7DDB5A44A3A2968B19D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,6 +251,7 @@
 				DD6A19DB1F9ED65100798400 /* LessonCell.swift */,
 				DD5FCC101F9F1C0500A469D3 /* Extensions.swift */,
 				DD5FCCBC1F9F899900A469D3 /* PDFViewerVC.swift */,
+				DDA3E7CE1FA0466D0066FCB2 /* QuestionCell.swift */,
 				DD6A19C91F9ED06B00798400 /* Main.storyboard */,
 				DD6A19CC1F9ED06B00798400 /* Assets.xcassets */,
 				DD6A19CE1F9ED06B00798400 /* LaunchScreen.storyboard */,
@@ -238,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD6A19D41F9ED06B00798400 /* Build configuration list for PBXNativeTarget "DiaLyVietNam" */;
 			buildPhases = (
+				2AC612B27ED0D1A6AC59A687 /* [CP] Check Pods Manifest.lock */,
 				DD6A19BE1F9ED06B00798400 /* Sources */,
 				DD6A19BF1F9ED06B00798400 /* Frameworks */,
 				DD6A19C01F9ED06B00798400 /* Resources */,
+				D32F45C442329833ABF259F2 /* [CP] Embed Pods Frameworks */,
+				EBF4620DCD174FE9CDEF2840 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,51 +323,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5FCCBB1F9F7FDE00A469D3 /* BÀI 41.pdf in Resources */,
-				DD5FCCAC1F9F7FDE00A469D3 /* BÀI 30.pdf in Resources */,
-				DD5FCCA61F9F7FDE00A469D3 /* BÀI 16.pdf in Resources */,
-				DD5FCCAE1F9F7FDE00A469D3 /* BÀI 18.pdf in Resources */,
-				DD5FCCA31F9F7FDE00A469D3 /* BÀI 14.pdf in Resources */,
+				DD5FCCBB1F9F7FDE00A469D3 /* BÀI 41.pdf in Resources */,
+				DD5FCCAC1F9F7FDE00A469D3 /* BÀI 30.pdf in Resources */,
+				DD5FCCA61F9F7FDE00A469D3 /* BÀI 16.pdf in Resources */,
+				DD5FCCAE1F9F7FDE00A469D3 /* BÀI 18.pdf in Resources */,
+				DD5FCCA31F9F7FDE00A469D3 /* BÀI 14.pdf in Resources */,
 				DD5FCC301F9F528C00A469D3 /* Scenario.xvl in Resources */,
-				DD5FCCB21F9F7FDE00A469D3 /* BÀI 35.pdf in Resources */,
-				DD5FCCB71F9F7FDE00A469D3 /* BÀI 37.pdf in Resources */,
-				DD5FCCB61F9F7FDE00A469D3 /* BÀI 36.pdf in Resources */,
-				DD5FCCB01F9F7FDE00A469D3 /* BÀI 31.pdf in Resources */,
-				DD5FCCB81F9F7FDE00A469D3 /* BÀI 42.pdf in Resources */,
-				DD5FCCAF1F9F7FDE00A469D3 /* BÀI 25.pdf in Resources */,
+				DD5FCCB21F9F7FDE00A469D3 /* BÀI 35.pdf in Resources */,
+				DD5FCCB71F9F7FDE00A469D3 /* BÀI 37.pdf in Resources */,
+				DD5FCCB61F9F7FDE00A469D3 /* BÀI 36.pdf in Resources */,
+				DD5FCCB01F9F7FDE00A469D3 /* BÀI 31.pdf in Resources */,
+				DD5FCCB81F9F7FDE00A469D3 /* BÀI 42.pdf in Resources */,
+				DD5FCCAF1F9F7FDE00A469D3 /* BÀI 25.pdf in Resources */,
 				DD5FCC311F9F528C00A469D3 /* Layout1.swf in Resources */,
 				DD5FCC331F9F528C00A469D3 /* thumbnail.jpg in Resources */,
-				DD5FCCB91F9F7FDE00A469D3 /* BÀI 43.pdf in Resources */,
-				DD5FCCB51F9F7FDE00A469D3 /* BÀI 22.pdf in Resources */,
-				DD5FCCAB1F9F7FDE00A469D3 /* BÀI 2.pdf in Resources */,
-				DD5FCCAD1F9F7FDE00A469D3 /* BÀI 24.pdf in Resources */,
-				DD5FCCAA1F9F7FDE00A469D3 /* BÀI 26.pdf in Resources */,
+				DD5FCCB91F9F7FDE00A469D3 /* BÀI 43.pdf in Resources */,
+				DD5FCCB51F9F7FDE00A469D3 /* BÀI 22.pdf in Resources */,
+				DD5FCCAB1F9F7FDE00A469D3 /* BÀI 2.pdf in Resources */,
+				DD5FCCAD1F9F7FDE00A469D3 /* BÀI 24.pdf in Resources */,
+				DD5FCCAA1F9F7FDE00A469D3 /* BÀI 26.pdf in Resources */,
 				DD6A19D01F9ED06B00798400 /* LaunchScreen.storyboard in Resources */,
-				DD5FCCA41F9F7FDE00A469D3 /* BÀI 15.pdf in Resources */,
+				DD5FCCA41F9F7FDE00A469D3 /* BÀI 15.pdf in Resources */,
 				DD5FCC321F9F528C00A469D3 /* Racing.swf in Resources */,
-				DD5FCCA51F9F7FDE00A469D3 /* BÀI 17.pdf in Resources */,
-				DD5FCCA01F9F7FDE00A469D3 /* BÀI 39.pdf in Resources */,
+				DD5FCCA51F9F7FDE00A469D3 /* BÀI 17.pdf in Resources */,
+				DD5FCCA01F9F7FDE00A469D3 /* BÀI 39.pdf in Resources */,
 				DD5FCC2F1F9F528C00A469D3 /* Player.swf in Resources */,
-				DD5FCCB31F9F7FDE00A469D3 /* BÀI 21.pdf in Resources */,
-				DD5FCCA81F9F7FDE00A469D3 /* BÀI 33.pdf in Resources */,
-				DD5FCCA21F9F7FDE00A469D3 /* BÀI 28.pdf in Resources */,
+				DD5FCCB31F9F7FDE00A469D3 /* BÀI 21.pdf in Resources */,
+				DD5FCCA81F9F7FDE00A469D3 /* BÀI 33.pdf in Resources */,
+				DD5FCCA21F9F7FDE00A469D3 /* BÀI 28.pdf in Resources */,
 				DD6A19CD1F9ED06B00798400 /* Assets.xcassets in Resources */,
 				DD5FCC9F1F9F7FDE00A469D3 /* BÀI 6 VÀ BÀI 7.pdf in Resources */,
+				DDA3E7CD1FA03E510066FCB2 /* Questions.txt in Resources */,
 				DD5FCC2E1F9F528C00A469D3 /* Index.html in Resources */,
 				DD6A19CB1F9ED06B00798400 /* Main.storyboard in Resources */,
-				DD5FCC9E1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf in Resources */,
-				DD5FCCB41F9F7FDE00A469D3 /* BÀI 20.pdf in Resources */,
-				DD5FCCA91F9F7FDE00A469D3 /* BÀI 32.pdf in Resources */,
-				DD5FCCB11F9F7FDE00A469D3 /* BÀI 1.pdf in Resources */,
-				DD5FCC9D1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf in Resources */,
-				DD5FCCA11F9F7FDE00A469D3 /* BÀI 8.pdf in Resources */,
-				DD5FCCA71F9F7FDE00A469D3 /* BÀI 27.pdf in Resources */,
+				DD5FCC9E1F9F7FDE00A469D3 /* BÀI 11 VÀ BÀI 12.pdf in Resources */,
+				DD5FCCB41F9F7FDE00A469D3 /* BÀI 20.pdf in Resources */,
+				DD5FCCA91F9F7FDE00A469D3 /* BÀI 32.pdf in Resources */,
+				DD5FCCB11F9F7FDE00A469D3 /* BÀI 1.pdf in Resources */,
+				DD5FCC9D1F9F7FDE00A469D3 /* BÀI 9 VÀ BÀI 10.pdf in Resources */,
+				DD5FCCA11F9F7FDE00A469D3 /* BÀI 8.pdf in Resources */,
+				DD5FCCA71F9F7FDE00A469D3 /* BÀI 27.pdf in Resources */,
 				DD5FCC3D1F9F7B9200A469D3 /* PhuLuc.txt in Resources */,
-				DD5FCCBA1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf in Resources */,
+				DD5FCCBA1F9F7FDE00A469D3 /* BÀI 4 VÀ BÀI 5.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AC612B27ED0D1A6AC59A687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiaLyVietNam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32F45C442329833ABF259F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHTCollectionViewWaterfallLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF4620DCD174FE9CDEF2840 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD6A19BE1F9ED06B00798400 /* Sources */ = {
@@ -350,6 +438,7 @@
 				DD6A19DC1F9ED65100798400 /* LessonCell.swift in Sources */,
 				DD6A19C61F9ED06B00798400 /* AppDelegate.swift in Sources */,
 				DD5FCC111F9F1C0500A469D3 /* Extensions.swift in Sources */,
+				DDA3E7CF1FA0466D0066FCB2 /* QuestionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +573,7 @@
 		};
 		DD6A19D51F9ED06B00798400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B7121476A83203CB2A1CF8 /* Pods-DiaLyVietNam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +590,7 @@
 		};
 		DD6A19D61F9ED06B00798400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D68BEAB3B1F84A2675D5480 /* Pods-DiaLyVietNam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,7 +9,7 @@
 
 
 import Foundation
-func dummyData() -> [Chapter]{
+func prepareChapterData() -> [Chapter]{
     var result = [Chapter]()
     do{
         let path = Bundle.main.path(forResource: "PhuLuc", ofType: "txt")
@@ -59,4 +59,69 @@ func getSpecialFileName(string: String) -> String {
         return string
     }
 }
+
+
+func prepareQuestion() -> [Question]{
+    var questions = [Question]()
+    do
+    {
+        let path = Bundle.main.path(forResource: "Questions", ofType: "txt")
+        let content = try String(contentsOfFile: path!, encoding: .utf8)
+        let listStringObj = content.components(separatedBy: "[<br>]")
+        for obj in listStringObj {
+            if obj == "\n" || obj == "" {continue}
+//            print(obj)
+            let quest = parseQuestion(content: obj)
+            questions.append(quest)
+        }
+    }catch let err {
+        print(err)
+    }
+    return questions
+}
+
+func parseQuestion(content: String) -> Question{
+    let list = content.components(separatedBy: "\n")
+    print(list)
+    var quesStr = ""
+    var listAnser = [Answer]()
+    var idx = 0
+    for value in list {
+        if value == "" {continue}
+        idx += 1
+        if idx == 1 {
+            quesStr = value
+        } else {
+            let isCorrect = idx == 2
+            let an = Answer(content: getAn(value), isCorrect: isCorrect)
+            listAnser.append(an)
+        }
+    }
+    let ques = Question(content: quesStr, answers: listAnser)
+    return ques
+}
+
+func getAn(_ an: String)-> String{
+    var list = an.components(separatedBy: " ")
+    list.removeFirst()
+    return list.joined(separator: " ")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

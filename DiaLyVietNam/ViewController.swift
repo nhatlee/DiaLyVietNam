@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     private let SEGUES_STRING = "ShowPdf"
     private var selectedFile: String?
     @IBOutlet weak var listLessons: UITableView!
-    let listChapters = dummyData()
+    let listChapters = prepareChapterData()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "ĐỊA LÍ VIỆT NAM"
