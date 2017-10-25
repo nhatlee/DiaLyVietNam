@@ -9,11 +9,14 @@
 import UIKit
 protocol CellDelegate: class {
     func nextAction()
-    func previous()
+//    func previous()
+//    func tapAns(an: Answer?, buttonTap: UIButton)
 }
 final class QuestionCell: UICollectionViewCell {
     @IBOutlet weak var lblQuestion: UILabel!
     
+    @IBOutlet weak var btnDoAgain: UIButton!
+    @IBOutlet weak var btnNext: UIButton!
     @IBOutlet weak var btn4: UIButton!
     @IBOutlet weak var btn3: UIButton!
     @IBOutlet weak var btn2: UIButton!
@@ -27,8 +30,14 @@ final class QuestionCell: UICollectionViewCell {
     var currentQues: Question?
     private var selectedAn: Answer?
     let ImageTag = 100
+//    private var isEndIndex = false
     
-    func loadCell(ques: Question) {
+    func loadCell(ques: Question, isEndList: Bool) {
+        if isEndList{
+            btnNext.setTitle("Xong", for: .normal)
+            btnNext.isEnabled = false
+        }
+        
         currentQues = ques
         lblQuestion.text = ques.content
         var resultSet = Set<Int>()
@@ -57,10 +66,10 @@ final class QuestionCell: UICollectionViewCell {
         resetAn(isEnable: false)
         guard let curLabel = self.viewWithTag((sender.tag * 10)) as? UILabel,
         let ques = currentQues else{ return }
-            let text = curLabel.text
-            selectedAn = ques.answers.filter{$0.content == text}.first
-        
-        sender.backgroundColor = UIColor.blue
+        let text = curLabel.text
+        selectedAn = ques.answers.filter{$0.content == text}.first
+        selectedAn?.isSelected = true
+        sender.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
         addImage(to: sender)
     }
     
@@ -69,10 +78,14 @@ final class QuestionCell: UICollectionViewCell {
         imageView.tag = ImageTag
         let imageName = selectedAn?.isCorrect == true ? "correct" : "Incorrect"
         imageView.image = UIImage(named: imageName)
+        imageView.layer.zPosition = 1
+        let _color = selectedAn?.isCorrect == true ? UIColor.clear : UIColor.red
+        btnDoAgain.backgroundColor = _color
         button.addSubview(imageView)
     }
     
     func resetAn(isEnable: Bool){
+        btnDoAgain.backgroundColor = UIColor.clear
         let image = self.viewWithTag(ImageTag)
         image?.removeFromSuperview()
         btn1.backgroundColor = COLOR
@@ -89,13 +102,13 @@ final class QuestionCell: UICollectionViewCell {
     }
     
     @IBAction func next(_ sender: Any) {
-//        resetAn(isEnable: true)
+        resetAn(isEnable: true)
         self.delegate?.nextAction()
     }
     
-    @IBAction func previous(_ sender: Any) {
-//        resetAn(isEnable: true)
-        self.delegate?.previous()
-    }
+//    @IBAction func previous(_ sender: Any) {
+////        resetAn(isEnable: true)
+//        self.delegate?.previous()
+//    }
     
 }

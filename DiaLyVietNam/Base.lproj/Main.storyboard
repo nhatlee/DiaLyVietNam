@@ -445,11 +445,11 @@
                                                                 </stackView>
                                                             </subviews>
                                                         </stackView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bTj-2O-cSj">
-                                                            <rect key="frame" x="15" y="543" width="345" height="45"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bTj-2O-cSj">
+                                                            <rect key="frame" x="20" y="543" width="335" height="45"/>
                                                             <subviews>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1z-5E-TFy">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="105" height="45"/>
+                                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1z-5E-TFy">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="45"/>
                                                                     <state key="normal" title="Quay lại">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
@@ -469,7 +469,7 @@
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPX-wx-9Yn">
-                                                                    <rect key="frame" x="120" y="0.0" width="105" height="45"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="157.5" height="45"/>
                                                                     <state key="normal" title="Chọn lại">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
@@ -489,7 +489,7 @@
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Me-kT-el9">
-                                                                    <rect key="frame" x="240" y="0.0" width="105" height="45"/>
+                                                                    <rect key="frame" x="177.5" y="0.0" width="157.5" height="45"/>
                                                                     <state key="normal" title="Đi tiếp">
                                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </state>
@@ -517,7 +517,7 @@
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="bTj-2O-cSj" firstAttribute="top" secondItem="QON-i9-dXk" secondAttribute="bottom" constant="20" id="024-MN-jv8"/>
-                                                        <constraint firstItem="bTj-2O-cSj" firstAttribute="leading" secondItem="OKn-ax-hZG" secondAttribute="leading" constant="15" id="0Iq-ux-zwl"/>
+                                                        <constraint firstItem="bTj-2O-cSj" firstAttribute="leading" secondItem="OKn-ax-hZG" secondAttribute="leading" constant="20" id="0Iq-ux-zwl"/>
                                                         <constraint firstItem="uMr-SP-GBh" firstAttribute="leading" secondItem="OKn-ax-hZG" secondAttribute="leading" constant="10" id="B2q-fv-vHG"/>
                                                         <constraint firstItem="PSv-dg-N15" firstAttribute="bottom" secondItem="OKn-ax-hZG" secondAttribute="bottom" id="EsY-Ey-uad"/>
                                                         <constraint firstItem="PSv-dg-N15" firstAttribute="top" secondItem="OKn-ax-hZG" secondAttribute="top" id="Gcp-xa-2qj"/>
@@ -529,7 +529,7 @@
                                                         <constraint firstItem="QON-i9-dXk" firstAttribute="leading" secondItem="OKn-ax-hZG" secondAttribute="leading" constant="10" id="f2s-C7-8YH"/>
                                                         <constraint firstItem="OKn-ax-hZG" firstAttribute="trailing" secondItem="uMr-SP-GBh" secondAttribute="trailing" constant="10" id="jph-QP-Ab8"/>
                                                         <constraint firstItem="QON-i9-dXk" firstAttribute="top" secondItem="uMr-SP-GBh" secondAttribute="bottom" constant="20" id="kuh-6z-HOo"/>
-                                                        <constraint firstItem="OKn-ax-hZG" firstAttribute="trailing" secondItem="bTj-2O-cSj" secondAttribute="trailing" constant="15" id="uUU-iN-XL1"/>
+                                                        <constraint firstItem="OKn-ax-hZG" firstAttribute="trailing" secondItem="bTj-2O-cSj" secondAttribute="trailing" constant="20" id="uUU-iN-XL1"/>
                                                     </constraints>
                                                     <viewLayoutGuide key="safeArea" id="OKn-ax-hZG"/>
                                                 </view>
@@ -547,6 +547,8 @@
                                             <outlet property="btn2" destination="dHC-a2-0zK" id="NMZ-lb-oRQ"/>
                                             <outlet property="btn3" destination="IuW-VR-cZo" id="Uqw-Sv-82a"/>
                                             <outlet property="btn4" destination="6eU-ji-nRh" id="P8A-ih-29Y"/>
+                                            <outlet property="btnDoAgain" destination="MPX-wx-9Yn" id="WUc-sO-86S"/>
+                                            <outlet property="btnNext" destination="2Me-kT-el9" id="Tfs-Yu-md5"/>
                                             <outlet property="lblAn1" destination="yQC-bk-Bns" id="a2w-VO-Pwq"/>
                                             <outlet property="lblAn2" destination="RdB-y7-tJE" id="kHQ-fb-qy5"/>
                                             <outlet property="lblAn3" destination="VsI-uu-Uqn" id="3Rc-qg-fIA"/>

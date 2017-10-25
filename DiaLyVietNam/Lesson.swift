@@ -26,11 +26,12 @@ struct SubChapter {
 
 struct Question {
     let content: String
-    let answers: [Answer]
+    var answers: [Answer]
 }
 
 struct Answer {
     let content: String
     let isCorrect: Bool
+    var isSelected: Bool
 }
 

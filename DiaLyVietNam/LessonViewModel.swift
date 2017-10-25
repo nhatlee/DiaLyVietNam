@@ -93,7 +93,7 @@ func parseQuestion(content: String) -> Question{
             quesStr = value
         } else {
             let isCorrect = idx == 2
-            let an = Answer(content: getAn(value), isCorrect: isCorrect)
+            let an = Answer(content: getAn(value), isCorrect: isCorrect, isSelected: false)
             listAnser.append(an)
         }
     }

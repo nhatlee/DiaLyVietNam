@@ -8,6 +8,13 @@
 
 import Foundation
 import UIKit
+extension UICollectionView {
+    func indexPathForView(view: AnyObject) -> IndexPath? {
+        let originInCollectioView = self.convert(CGPoint.zero, from: (view as! UIView))
+        return self.indexPathForItem(at: originInCollectioView)
+    }
+}
+
 extension Array {
     /// Picks `n` random elements (partial Fisher-Yates shuffle approach)
     subscript (randomPick n: Int) -> [Element] {

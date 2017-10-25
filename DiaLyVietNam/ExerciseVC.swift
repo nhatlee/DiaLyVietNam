@@ -42,7 +42,7 @@ class ExerciseVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "QuestionCell", for: indexPath) as! QuestionCell
         let ques = listQuestion[indexPath.item]
-        cell.loadCell(ques: ques)
+        cell.loadCell(ques: ques, isEndList: (indexPath.item == listQuestion.count - 1))
         cell.delegate = self
         return cell
     }
@@ -62,10 +62,24 @@ extension ExerciseVC : CellDelegate{
         clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
     }
     
-    func previous() {
-        guard currentItem <= listQuestion.count,  currentItem >= 0 else{ return }
-        currentItem = currentItem == 0 ? 0 : (currentItem - 1)
-        let indexPath = IndexPath(row: currentItem, section: 0)
-        clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
-    }
+//    func previous() {
+//        guard currentItem <= listQuestion.count,  currentItem >= 0 else{ return }
+//        currentItem = currentItem == 0 ? 0 : (currentItem - 1)
+//        let indexPath = IndexPath(row: currentItem, section: 0)
+//        clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
+//    }
+    
+//    func tapAns(an: Answer?, buttonTap: UIButton) {
+//        guard let indexPath = self.clvQuestion.indexPathForView(view: buttonTap) else{return }
+//        let selectedQ = self.listQuestion[indexPath.item]
+//        var tempQ = selectedQ
+//        for (index, value) in tempQ.answers.enumerated(){
+//            if value.content == an?.content{
+//                tempQ.answers[index].isSelected = true
+//            } else {
+//                tempQ.answers[index].isSelected = false
+//            }
+//        }
+//        self.listQuestion[indexPath.item] = tempQ
+//    }
 }
