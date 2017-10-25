@@ -1,7 +1,0 @@
-app_identifier "com.nhatlee.dialyvietnam" # The bundle identifier of your app
-apple_id "lenhathk@gmail.com" # Your Apple email address
-
-team_id "Z5TBLESEBG" # Developer Portal Team ID
-
-# you can even provide different app identifiers, Apple IDs and team names per lane:
-# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
