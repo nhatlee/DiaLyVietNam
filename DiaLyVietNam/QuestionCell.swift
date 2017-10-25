@@ -72,7 +72,8 @@ final class QuestionCell: UICollectionViewCell {
     }
     
     func addImage(to button: UIButton){
-        let imageView = UIImageView(frame: CGRect(x: button.frame.size.width/2 - 40, y: button.frame.size.height/2 - 40 + 3, width: 80, height: 80))
+        let buttonSize = button.frame.size
+        let imageView = UIImageView(frame: CGRect(x: button.frame.size.width/2 - (buttonSize.width - 10)/2, y: button.frame.size.height/2 - (buttonSize.height - 10)/2 + 3, width: buttonSize.width - 10, height: buttonSize.height - 10))
         imageView.tag = ImageTag
         let imageName = selectedAn?.isCorrect == true ? "correct" : "Incorrect"
         imageView.image = UIImage(named: imageName)

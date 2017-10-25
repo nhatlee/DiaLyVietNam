@@ -60,25 +60,4 @@ extension ExerciseVC : CellDelegate{
         let indexPath = IndexPath(row: currentItem, section: 0)
         clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
     }
-    
-//    func previous() {
-//        guard currentItem <= listQuestion.count,  currentItem >= 0 else{ return }
-//        currentItem = currentItem == 0 ? 0 : (currentItem - 1)
-//        let indexPath = IndexPath(row: currentItem, section: 0)
-//        clvQuestion.scrollToItem(at: indexPath, at: UICollectionViewScrollPosition.centeredVertically, animated: true)
-//    }
-    
-//    func tapAns(an: Answer?, buttonTap: UIButton) {
-//        guard let indexPath = self.clvQuestion.indexPathForView(view: buttonTap) else{return }
-//        let selectedQ = self.listQuestion[indexPath.item]
-//        var tempQ = selectedQ
-//        for (index, value) in tempQ.answers.enumerated(){
-//            if value.content == an?.content{
-//                tempQ.answers[index].isSelected = true
-//            } else {
-//                tempQ.answers[index].isSelected = false
-//            }
-//        }
-//        self.listQuestion[indexPath.item] = tempQ
-//    }
 }

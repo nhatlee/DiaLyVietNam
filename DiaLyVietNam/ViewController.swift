@@ -98,11 +98,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         let chapter = listChapters[indexPath.section]
         let lesson = chapter.subChapter.lesson[indexPath.row]
         if let path = Bundle.main.path(forResource: lesson.fileNamePdf, ofType: "pdf"){
             selectedFile = path
         self.performSegue(withIdentifier: SEGUES_STRING, sender: self)
+        } else {
+            let alert = UIAlertController(title: "Ooh", message: "Đây là bài thực hành không có file pdf", preferredStyle: .alert)
+            let action = UIAlertAction(title: "Biết rồi", style: .default, handler: nil)
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
         }
         
     }
