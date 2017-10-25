@@ -9,8 +9,6 @@
 import UIKit
 protocol CellDelegate: class {
     func nextAction()
-//    func previous()
-//    func tapAns(an: Answer?, buttonTap: UIButton)
 }
 final class QuestionCell: UICollectionViewCell {
     @IBOutlet weak var lblQuestion: UILabel!

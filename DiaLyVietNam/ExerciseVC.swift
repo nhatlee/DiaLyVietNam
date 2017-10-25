@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CHTCollectionViewWaterfallLayout
 
 class ExerciseVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, CHTCollectionViewDelegateWaterfallLayout {
 

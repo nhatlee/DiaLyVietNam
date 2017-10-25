@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01E4B28E14213AE26A5F4745 /* Pods_DiaLyVietNam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1E2239CE42AC13F0F4F8DC /* Pods_DiaLyVietNam.framework */; };
 		DD5FCC0F1F9F164500A469D3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCC0E1F9F164500A469D3 /* HomeVC.swift */; };
 		DD5FCC111F9F1C0500A469D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCC101F9F1C0500A469D3 /* Extensions.swift */; };
 		DD5FCC351F9F544100A469D3 /* ExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FCC341F9F544100A469D3 /* ExerciseVC.swift */; };
@@ -54,11 +53,10 @@
 		DD6A19DC1F9ED65100798400 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A19DB1F9ED65100798400 /* LessonCell.swift */; };
 		DDA3E7CD1FA03E510066FCB2 /* Questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDA3E7CC1FA03E500066FCB2 /* Questions.txt */; };
 		DDA3E7CF1FA0466D0066FCB2 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA3E7CE1FA0466D0066FCB2 /* QuestionCell.swift */; };
+		DDE1D5FD1FA08E860030FFAB /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE1D5FC1FA08E860030FFAB /* CHTCollectionViewWaterfallLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D68BEAB3B1F84A2675D5480 /* Pods-DiaLyVietNam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaLyVietNam.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam.release.xcconfig"; sourceTree = "<group>"; };
-		DB1E2239CE42AC13F0F4F8DC /* Pods_DiaLyVietNam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaLyVietNam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5FCC0E1F9F164500A469D3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DD5FCC101F9F1C0500A469D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DD5FCC341F9F544100A469D3 /* ExerciseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseVC.swift; sourceTree = "<group>"; };
@@ -107,7 +105,7 @@
 		DD6A19DB1F9ED65100798400 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
 		DDA3E7CC1FA03E500066FCB2 /* Questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Questions.txt; sourceTree = "<group>"; };
 		DDA3E7CE1FA0466D0066FCB2 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
-		E7B7121476A83203CB2A1CF8 /* Pods-DiaLyVietNam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaLyVietNam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE1D5FC1FA08E860030FFAB /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,30 +113,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E4B28E14213AE26A5F4745 /* Pods_DiaLyVietNam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F3B7DDB5A44A3A2968B19D0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DB1E2239CE42AC13F0F4F8DC /* Pods_DiaLyVietNam.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		95765A9E74C6D8DD22A73E8F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E7B7121476A83203CB2A1CF8 /* Pods-DiaLyVietNam.debug.xcconfig */,
-				9D68BEAB3B1F84A2675D5480 /* Pods-DiaLyVietNam.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		DD499BDA1F9F11F900F29EC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,8 +172,6 @@
 			children = (
 				DD6A19C41F9ED06B00798400 /* DiaLyVietNam */,
 				DD6A19C31F9ED06B00798400 /* Products */,
-				95765A9E74C6D8DD22A73E8F /* Pods */,
-				6F3B7DDB5A44A3A2968B19D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +186,7 @@
 		DD6A19C41F9ED06B00798400 /* DiaLyVietNam */ = {
 			isa = PBXGroup;
 			children = (
+				DDE1D5FB1FA08E790030FFAB /* Library */,
 				DD6A19C51F9ED06B00798400 /* AppDelegate.swift */,
 				DD6A19C71F9ED06B00798400 /* ViewController.swift */,
 				DD5FCC0E1F9F164500A469D3 /* HomeVC.swift */,
@@ -227,6 +206,14 @@
 			path = DiaLyVietNam;
 			sourceTree = "<group>";
 		};
+		DDE1D5FB1FA08E790030FFAB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1D5FC1FA08E860030FFAB /* CHTCollectionViewWaterfallLayout.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,12 +221,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD6A19D41F9ED06B00798400 /* Build configuration list for PBXNativeTarget "DiaLyVietNam" */;
 			buildPhases = (
-				2AC612B27ED0D1A6AC59A687 /* [CP] Check Pods Manifest.lock */,
 				DD6A19BE1F9ED06B00798400 /* Sources */,
 				DD6A19BF1F9ED06B00798400 /* Frameworks */,
 				DD6A19C01F9ED06B00798400 /* Resources */,
-				D32F45C442329833ABF259F2 /* [CP] Embed Pods Frameworks */,
-				EBF4620DCD174FE9CDEF2840 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +246,7 @@
 				TargetAttributes = {
 					DD6A19C11F9ED06B00798400 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -330,66 +314,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2AC612B27ED0D1A6AC59A687 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DiaLyVietNam-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D32F45C442329833ABF259F2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHTCollectionViewWaterfallLayout.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBF4620DCD174FE9CDEF2840 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaLyVietNam/Pods-DiaLyVietNam-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		DD6A19BE1F9ED06B00798400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD6A19DA1F9ED39500798400 /* LessonViewModel.swift in Sources */,
+				DDE1D5FD1FA08E860030FFAB /* CHTCollectionViewWaterfallLayout.swift in Sources */,
 				DD6A19D81F9ED30C00798400 /* Lesson.swift in Sources */,
 				DD6A19C81F9ED06B00798400 /* ViewController.swift in Sources */,
 				DD5FCCBD1F9F899900A469D3 /* PDFViewerVC.swift in Sources */,
@@ -472,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -523,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -533,19 +464,18 @@
 		};
 		DD6A19D51F9ED06B00798400 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7B7121476A83203CB2A1CF8 /* Pods-DiaLyVietNam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5TBLESEBG;
 				INFOPLIST_FILE = DiaLyVietNam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhatlee.dialyvietnam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4b08f111-6bf3-4eb7-9ee4-8f8254cfac88";
-				PROVISIONING_PROFILE_SPECIFIER = "Dia Ly Viet Nam";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -553,19 +483,18 @@
 		};
 		DD6A19D61F9ED06B00798400 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D68BEAB3B1F84A2675D5480 /* Pods-DiaLyVietNam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5TBLESEBG;
 				INFOPLIST_FILE = DiaLyVietNam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhatlee.dialyvietnam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4b08f111-6bf3-4eb7-9ee4-8f8254cfac88";
-				PROVISIONING_PROFILE_SPECIFIER = "Dia Ly Viet Nam";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
